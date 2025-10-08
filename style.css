@@ -1,19 +1,100 @@
+body {
+    background-color: #bbbbbb;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
 nav{
   position: sticky;
   top: 0;
   padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+  background-color: #087CA7;
+  border: 2px solid #2364AA;
+}
+
+/* Attribute Selector */
+input[value] {
+    background-color: #087CA7;
+    color: #fff;
+}
+
+/* ID Styling */
+#addBorder {
+    border-right: 2px dotted;
 }
 
 p {
+    padding: 5px;
+    margin: 10px auto;
+
+    justify-content: left;
+
+    background-color: #DDDFDF;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    background-color: #DDDFDF;
+}
+
+.title {
+    text-align: center;
+}
+
+img {
+    margin: 5px;
+    border-radius: 8px;
+    float: left;
+    background-color: #DDDFDF;
+}
+
+figure {
+    float: left;
+    margin: 10px;
+    background-color: #DDDFDF;
+}
+
+input {
+    margin: 10px 0 
+}
+
+a {
+    color: #DDDFDF;
+}
+
+ul {
+    background-color: #DDDFDF;
+}
+
+label {
+    background-color: #DDDFDF;
+}
+
+input[type="text"] {
+    background-color: #eeeeee;
+}
+
+select {
+    background-color: #eeeeee;
+}
+
+section {
+    display: flex;
+    border: 5px solid;
     padding: 10px;
 }
 
+/* -----TABLE----- */
 table {
     border: 5px solid;
     padding: 0px;
     border-collapse: collapse;
+
+    background-color: #DDDFDF;
 }
 
 tr {
@@ -25,6 +106,8 @@ th {
     border-left: 2px solid;
 }
 
+/* Class Style */
 .column-headers {
     border: 2px solid;
+    background-color: #aaaaaa;
 }
