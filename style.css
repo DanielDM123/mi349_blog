@@ -52,6 +52,7 @@ img {
     background-color: #DDDFDF;
 
     width: 100%;
+
 }
 
 figure {
@@ -118,16 +119,42 @@ th {
     border: 0;
 }
 
+
+
+/* ---------------------------------------------------------------------------- */
+/* Everything below this are new rulesets for Lab 8.4 Make Your Blog Responsive */
+/* ---------------------------------------------------------------------------- */
+
 .moble_nav_bar {
     display: none;
     border: 0;
+
+    margin: 20px;
+    margin-left: 0;
+}
+
+.menu_bar {
+
+    width: 2em;
+    height: 2em;
+
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 992px) { 
 
-
     section {
         display: block;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 20px;
     }
 
 }
@@ -144,5 +171,17 @@ th {
     p {
         font-size: 20px;
     }
+
+    h4{ 
+        font-size: 30px;
+    }
+
+    nav {
+        top: 0;
+        padding: 5px;
+        background-color: #bbbbbb;
+        border: none;
+    }
+
 
 }
